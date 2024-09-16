@@ -24,7 +24,7 @@ public class Amazon_Add_to_Cart implements I1 {
 		WebElement button_click = driver.findElement(By.xpath("//*[@id='continue']/span/input"));
 		button_click.click();
 		WebElement password = driver.findElement(By.name("password"));
-		password.sendKeys("Kiran@123");
+		password.sendKeys("12345677889");
 		WebElement sign_in = driver.findElement(By.id("signInSubmit"));
 		sign_in.click();
 		
