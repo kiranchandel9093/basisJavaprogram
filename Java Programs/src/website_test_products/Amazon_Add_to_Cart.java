@@ -20,7 +20,7 @@ public class Amazon_Add_to_Cart implements I1 {
 		WE.click();
 		WebElement E_mail = driver.findElement(By.name("email"));
 		//WebElement WE2 = driver.findElement(By.id("ap_email_login"));
-		E_mail.sendKeys("kiran9093chandel@gmail.com");
+		E_mail.sendKeys("kiran123chandel@gmail.com");
 		WebElement button_click = driver.findElement(By.xpath("//*[@id='continue']/span/input"));
 		button_click.click();
 		WebElement password = driver.findElement(By.name("password"));
